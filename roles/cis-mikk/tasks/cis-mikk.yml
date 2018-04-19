@@ -1,0 +1,9 @@
+---
+ # This is my own playbook for implementing CIS regulations on Ubuntu 16.04 Xenial using 12-28-2017 CIS Benchmark
+ 
+ - name: Mikk's CIS master playbook ( apply CIS ruleset to webservers )
+   hosts: webservers
+   become: true
+  
+   roles: 
+      - cis-mikk

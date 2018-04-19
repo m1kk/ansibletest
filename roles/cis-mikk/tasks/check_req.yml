@@ -1,0 +1,6 @@
+---
+
+
+  - name: Check if OS is Debian-based (Mikk doesnt support others)
+    debug: msg="Check OS family"
+    when: ansible_distribution == 'Debian' or 'Ubuntu'

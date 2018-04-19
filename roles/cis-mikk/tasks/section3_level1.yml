@@ -1,0 +1,11 @@
+---
+
+ - name: 3.1.1 no ipv4 forward for you (using sysctl)
+   sysctl:
+     name: net.ipv4.ip_forward
+     value: '{{net_ipv4_forward}}'
+     state: present
+   tags:
+     - section3
+     - section3.1
+     - section3.1.1

@@ -1,0 +1,13 @@
+---
+
+  - name: 1.4.1 Ensure permissions on bootloader config are configured (Scored)
+    file:
+      dest: /boot/grub/grub.cfg
+      owner: root
+      group: root
+      mode: 0600
+    tags:
+      - section1
+      - section1.4
+      - section1.4.1
+

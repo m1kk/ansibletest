@@ -1,0 +1,10 @@
+  - name: 5.2.2 Ensure SSH Protocol is set to 2 (Scored)
+    lineinfile:
+      dest: /etc/ssh/sshd_config
+      regexp: '^Protocol'
+      line: 'Protocol 2'
+    notify: restart ssh
+    tags:
+      - section5
+      - section5.2
+      - section5.2.2

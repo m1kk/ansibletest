@@ -1,0 +1,46 @@
+---
+
+#  - include: section1_level1.yml
+#    tags:
+#      - section1
+#      - section1.1
+#      - section1.1.1.1
+
+  - include: section1_level2.yml
+    tags:
+      - section1
+      - level1
+
+  - include: section1_level3.yml
+    tags:
+      - section1
+      - level3
+  - include: section1_level4.yml
+    tags:
+      - section1
+      - section1.1
+      - section1.1.1.4
+
+#  - include: section1_level5.yml
+#    tags:
+      - section1
+      - section1.1
+      - section1.1.1.5
+
+#  - include: section1_level6.yml
+#    tags:
+      - section1
+      - section1.1
+      - section1.1.1.6
+
+#  - include: section1_level7.yml
+#    tags:
+      - section1
+      - section1.1
+      - section1.1.1.7
+
+#  - include: section1_level8.yml
+#    tags:
+      - section1
+      - section1.1
+      - section1.1.1.8

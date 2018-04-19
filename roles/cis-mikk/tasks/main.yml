@@ -1,0 +1,43 @@
+---
+
+  - include: check_req.yml
+
+  - include: section1.yml
+    tags: section1
+
+  - include: section2.yml
+    tags: section2
+
+#  - include: section3.yml
+#    tags: section3
+#
+#  - include: section4.yml
+#    tags: section4
+#
+  - include: section5.yml
+    tags: section5
+#
+#  - include: section7.yml
+#    tags: section7
+#
+#  - include: section8.yml
+#    tags: section8
+#
+#  - include: section6.yml
+#    tags: section6
+#
+#  - include: section9.yml
+#    tags: section9
+#
+#  - include: section1.yml
+#    tags: section1
+#
+#  - include: section11.yml
+#    tags: section11
+#
+#  - include: section12.yml
+#    tags: section12
+#
+#  - include: section13.yml
+#    tags: section13
+

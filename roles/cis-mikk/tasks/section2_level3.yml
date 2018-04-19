@@ -1,0 +1,10 @@
+---
+
+  - name: 2.3.4 who even uses telnet?
+    apt:
+      name: telnet
+      state: absent
+    tags:
+      - section2
+      - section2.3
+      - section2.3.4

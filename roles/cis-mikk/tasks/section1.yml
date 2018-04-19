@@ -9,7 +9,7 @@
   - include: section1_level2.yml
     tags:
       - section1
-      - level1
+      - level2
 
   - include: section1_level3.yml
     tags:
@@ -18,9 +18,7 @@
   - include: section1_level4.yml
     tags:
       - section1
-      - section1.1
-      - section1.1.1.4
-
+      - level4
 #  - include: section1_level5.yml
 #    tags:
       - section1

@@ -6,7 +6,6 @@
    become: true
    vars:
      ansible_ssh_private_key_file: /home/mikk/.ssh/id_rsa.pem
-     ansible_become_pass: Midasittanoh5
    roles: 
       - cis-mikk
    force_handlers: True

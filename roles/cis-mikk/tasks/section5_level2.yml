@@ -1,4 +1,4 @@
-  - name: 5.2.2 Ensure SSH Protocol is set to 2 (Scored)
+  - name: 5.2.2 test Ensure SSH Protocol is set to 2 (Scored)
     lineinfile:
       dest: /etc/ssh/sshd_config
       regexp: '^Protocol'
